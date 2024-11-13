@@ -3,7 +3,7 @@ import Card from "../../components/custom/Card";
 
 export default function ListofSevices() {
   return (
-    <div className="h-full min-h-screen w-full bg-transparent">
+    <div className="w-full mb-12">
            <div className="mt-12 text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">List of Services</h2>
         </div>

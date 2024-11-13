@@ -3,6 +3,9 @@ import Navbar from './components/shared/Navbar';
 import Landing from './pages/landing/Landing';
 import Footer from './components/shared/Footer';
 import ListofSevices from './pages/landing/ListofSevices';
+import Login from './pages/Auth/Login';
+import Signup from './pages/Auth/Signup';
+import Contacts from './pages/landing/Contacts';
 
 function App() {
 
@@ -11,6 +14,7 @@ function App() {
         <Navbar />
         <Landing />
         <ListofSevices />
+        <Contacts />
         <Footer />
     </>
   )

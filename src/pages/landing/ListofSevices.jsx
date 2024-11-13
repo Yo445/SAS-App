@@ -16,6 +16,7 @@ export default function ListofSevices() {
         <Card />
         <Card />
         <Card />
+        <Card />
       </div>
     </div>
   );

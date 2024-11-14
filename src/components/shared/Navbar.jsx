@@ -33,22 +33,22 @@ const Navbar = () => {
       <div
         className={`${
           isMenuOpen ? 'block' : 'hidden'
-        } w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-teal-900 md:border-none`}>
+        } w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-black md:border-none `}>
         <a
           href="#"
-          className="block md:inline-block text-white hover:text-[#111827] px-3 py-3 border-b-2 border-teal-900 md:border-none"
+          className="block md:inline-block text-white hover:text-[#111827] px-3 py-3 border-b-2 border-black md:border-none"
         >
           Home
         </a>
         <a
           href="#"
-          className="block md:inline-block text-white hover:text-[#111827] px-3 py-3 border-b-2 border-teal-900 md:border-none"
+          className="block md:inline-block text-white hover:text-[#111827] px-3 py-3 border-b-2 border-black md:border-none"
         >
           Services
         </a>
         <a
           href="#"
-          className="block md:inline-block text-white hover:text-[#111827] px-3 py-3 border-b-2 border-teal-900 md:border-none"
+          className="block md:inline-block text-white hover:text-[#111827] px-3 py-3 border-b-2 border-black md:border-none"
         >
           Contact
         </a>

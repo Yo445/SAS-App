@@ -1,11 +1,13 @@
-import './index.css'
-import Navbar from './components/shared/Navbar';
-import Landing from './pages/landing/Landing';
-import Footer from './components/shared/Footer';
-import ListofSevices from './pages/landing/ListofSevices';
-import Login from './pages/Auth/Login';
-import Signup from './pages/Auth/Signup';
-import Contacts from './pages/landing/Contacts';
+import "./index.css";
+import Navbar from "./components/shared/Navbar";
+import Landing from "./pages/landing/Landing";
+import Footer from "./components/shared/Footer";
+import ListofSevices from "./pages/landing/ListofSevices";
+import Login from "./pages/Auth/Login";
+import Signup from "./pages/Auth/Signup";
+import Contacts from "./pages/landing/Contacts";
+import { Outlet } from "react-router-dom";
+import NotFound from "./components/shared/NotFound ";
 import Ser1 from './pages/Services/1-VAT Registration/Ser1';
 import Ser2 from './pages/Services/2-Corporate Tax Registration/Ser2';
 import Ser3 from './pages/Services/3-Settlement of Tax Penalties/Ser3';
@@ -20,23 +22,26 @@ import OTP from './pages/Payment/OTP';
 import Done from './pages/Finish/Done';
 
 function App() {
-
   return (
     <>
+      <Navbar />
+      <NotFound />
+      <Footer />
+      {/* <Login /> */}
         {/* <Navbar />
         <Landing />
         <ListofSevices />
         <Footer />
         <Login /> */}
-        <Navbar/>
         {/* <Ser8 /> */}
+        {/* <Ser1 /> */}
         {/* <Request_Service /> */}
         <Upload_Docs1 />
         {/* <OTP/> */}
         {/* <Done /> */}
         <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

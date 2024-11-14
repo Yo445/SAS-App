@@ -76,7 +76,7 @@ export default function Ser1() {
                             <div class="relative mb-4 flex items-center">
                                 <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-black p-2 text-center text-base font-semibold text-white shadow mr-4">1</span>
                                 <div class="w-auto pt-1">
-                                    <h6 class="text-sm font-semibold text-black-900">For first paid the amount</h6>
+                                    <h6 class="text-sm font-semibold text-black-900">For first paid the amount.</h6>
                                 </div>
                             </div>
 
@@ -85,7 +85,7 @@ export default function Ser1() {
                                 <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-black p-2 text-center text-base font-semibold text-white shadow mr-4">2</span>
                                 <div class="w-auto pt-1">
                                     <h6 class="text-sm font-semibold text-black-900">
-                                        Documents are submitted and are under review within 10 days from the date of the application submission
+                                        Documents are submitted and are under review within 10 days from the date of the application submission.
                                     </h6>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ export default function Ser1() {
                                 <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-black p-2 text-center text-base font-semibold text-white shadow mr-4">3</span>
                                 <div class="w-auto pt-1">
                                     <h6 class="text-sm font-semibold text-black-900">
-                                        Receipt and printing of the VAT registration certificate, username, and password
+                                        Receipt and printing of the VAT registration certificate, username, and password.
                                     </h6>
                                 </div>
                             </div>
